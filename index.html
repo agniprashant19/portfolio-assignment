@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Prashant Agnihotri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Prashant Agnihotri</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home / Introduction Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="profile.jpg" alt="Prashant Agnihotri" class="profile-pic">
+            <h1>Hello, I'm <span>Prashant Agnihotri</span></h1>
+            <p class="tagline">B.Tech CSE Student | Full-Stack Web Developer & ML Enthusiast</p>
+            <p class="intro">
+                Motivated B.Tech Computer Science undergraduate (Class of 2028) based in Indore, Madhya Pradesh, 
+                with a strong foundation in Data Structures, Algorithms, full-stack web development, and data-driven modeling. 
+                Proficient in Java, Python, and JavaScript, with hands-on experience building API-driven web applications 
+                and predictive machine learning pipelines.
+            </p>
+            <!-- Button Group for Resume & Contact -->
+            <div class="hero-btns">
+                <a href="resume.pdf" target="_blank" class="btn">Download Resume</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About, Interests & Career Goals Section -->
+    <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div class="card">
+                <h3>Educational Background</h3>
+                <p>
+                    Currently pursuing a Bachelor of Technology (B.Tech) in Computer Science & Engineering 
+                    at Indore Institute of Science and Technology (IIST), affiliated to RGPV, with core focus 
+                    on DSA, OOP, DBMS, Operating Systems, and Internet & Web Technology.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Interests & Activities</h3>
+                <p>
+                    Full-Stack Web Development, Data Science, Machine Learning, Generative AI (Currently Learning), 
+                    and daily Data Structures & Algorithms problem-solving on LeetCode to optimize time and space complexity.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Career Goals</h3>
+                <p>
+                    Seeking software engineering, full-stack web development, or machine learning internship 
+                    opportunities to build reliable, scalable, and impactful real-world software solutions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-badge">Java</div>
+                <div class="skill-badge">Python</div>
+                <div class="skill-badge">JavaScript</div>
+                <div class="skill-badge">SQL</div>
+                <div class="skill-badge">HTML5 & CSS3</div>
+                <div class="skill-badge">FastAPI & Flask</div>
+                <div class="skill-badge">REST APIs & Maps API</div>
+                <div class="skill-badge">Data Structures & Algorithms</div>
+                <div class="skill-badge">Pandas & NumPy</div>
+                <div class="skill-badge">Scikit-learn, XGBoost & CatBoost</div>
+                <div class="skill-badge">Seaborn & Matplotlib</div>
+                <div class="skill-badge">Machine Learning & GenAI (Learning)</div>
+                <div class="skill-badge">Git & GitHub</div>
+                <div class="skill-badge">Docker & DVC</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2 class="section-title">Academic & Personal Projects</h2>
+        <div class="projects-grid">
+            <div class="card project-card">
+                <h3>1. FairSplit Ride – Smart Ride Sharing & Dynamic Fare Splitting System</h3>
+                <p>
+                    Developed a smart full-stack ride-sharing platform that matches passengers travelling along similar routes. 
+                    Implemented route compatibility logic for nearby pickup/drop-off points, built a dynamic distance-based 
+                    fare-splitting mechanism, and integrated map-based route visualization to optimize vehicle utilization.
+                </p>
+                <span class="tech-tag">Python • FastAPI • HTML • CSS • JavaScript • Maps API</span>
+            </div>
+            <div class="card project-card">
+                <h3>2. End-to-End Airbnb Price Prediction</h3>
+                <p>
+                    Built a machine learning application to predict Airbnb rental prices from property and listing features. 
+                    Performed data preprocessing and EDA using Pandas, NumPy, Seaborn, and Matplotlib, trained regression 
+                    models with Scikit-learn, XGBoost, and CatBoost, and deployed real-time predictions via Flask using Docker and DVC.
+                </p>
+                <span class="tech-tag">Python • Scikit-learn • XGBoost • CatBoost • Flask • Docker • DVC</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualifications / Education Table Section -->
+    <section id="education" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Educational Qualifications</h2>
+            <table class="edu-table">
+                <thead>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Institution / Board</th>
+                        <th>Passing Year</th>
+                        <th>Score / CGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>B.Tech in Computer Science & Engineering</td>
+                        <td>Indore Institute of Science and Technology (IIST), Indore (RGPV)</td>
+                        <td>2028 (Expected)</td>
+                        <td>7.3 / 10.0 CGPA</td>
+                    </tr>
+                    <tr>
+                        <td>Higher Secondary (Class XII) & High School (Class X)</td>
+                        <td>Excellence Martand No. 1, Rewa, Madhya Pradesh (MP Board)</td>
+                        <td>Completed</td>
+                        <td>MP Board</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Contact & Social Profiles Section -->
+    <section id="contact" class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="contact-text">Based in Indore, Madhya Pradesh — Feel free to reach out for internships, collaborations, or project discussions.</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:agnihotrip013@gmail.com">agnihotrip013@gmail.com</a> | <strong>Phone:</strong> +91 7489445294</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/prashant-agnihotri-698aa0442" target="_blank">LinkedIn Profile</a>
+                <a href="https://leetcode.com" target="_blank">LeetCode</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Prashant Agnihotri. All Rights Reserved. | Internet & Web Technology Assignment</p>
+    </footer>
+
+</body>
+</html>
